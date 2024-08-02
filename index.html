@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>String Method</title>
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 style="text-align: center">String Methods</h1>
+    <div class="container">
+      <!--Method 1-->
+      <div class="Method1">
+        <h3>1. String.charAt()</h3>
+        <p>Retruns a String Representing the character at a given index.</p>
+        <input id="String1" placeholder="Enter a string" />
+        <input id="Index" placeholder="Enter Index" />
+        <p id="Result1"></p>
+        <button id="GetChar" onclick="GetChar()">GetChar</button>
+      </div>
+      <!--Method 2-->
+      <div class="Method2">
+        <h3>2. String.endsWith()</h3>
+        <p>
+          Retruns true if the string ends with the given string otherwise false.
+        </p>
+        <input id="String2" placeholder="Enter a string" />
+        <input id="EndString" placeholder="Enter EndString" />
+        <p id="Result2"></p>
+        <button id="AnotherString" onclick="EndsWith()">EndsWith</button>
+      </div>
+      <!--Method 3-->
+      <div class="Method3">
+        <h3>3. String.includes()</h3>
+        <p>
+          Retruns true if the string contain the given string otherwise false.
+        </p>
+        <input id="String3" placeholder="Enter a string" />
+        <input id="includes" placeholder="Enter include string" />
+        <p id="Result3"></p>
+        <button id="includeString" onclick="includeString()">EndsWith</button>
+      </div>
+      <!--Method4-->
+      <div class="Method4">
+        <h3>4. String.indexOf()</h3>
+        <p>
+          Retruns the index within the string of first occurrance of the
+          specified value or -1 if not found.
+        </p>
+        <input id="String4" placeholder="Enter a string" />
+        <input id="indexOf" placeholder="Enter string you want check index " />
+        <p id="Result4"></p>
+        <button id="indexOfString" onclick="indexOfString()">EndsWith</button>
+      </div>
+      <!--Method5-->
+      <div class="Method5">
+        <h3>5. String.padEnd()</h3>
+        <p>
+          Retruns a new string with some content padded to the end of the
+          string.
+        </p>
+        <input id="String5" placeholder="Enter a string" />
+        <input id="paddingendNumber" placeholder="occurrance no." />
+        <input id="padEnd" placeholder="Enter string for padEnd" />
+        <p id="Result5"></p>
+        <button id="padEndString" onclick="padEndString()">EndsWith</button>
+      </div>
+      <!--Method6-->
+      <div class="Method6">
+        <h3>6. String.padStart()</h3>
+        <p>
+          Retruns a new string with some content padded to the start of the
+          string.
+        </p>
+        <input id="String6" placeholder="Enter a string" />
+        <input id="paddingstartNumber" placeholder="occurrance no." />
+        <input id="padStart" placeholder="Enter string for padStart" />
+        <p id="Result6"></p>
+        <button id="padStartString" onclick="padStartString()">EndsWith</button>
+      </div>
+      <!--Method7-->
+      <div class="Method7">
+        <h3>7. String.repeat()</h3>
+        <p>
+          Returns a new string which contain the specified number of copies of
+          the string.
+        </p>
+        <input id="String7" placeholder="Enter a string" />
+        <input id="repeat" placeholder="Enter string you want repeat " />
+        <p id="Result7"></p>
+        <button id="repeat" onclick="repeatString()">EndsWith</button>
+      </div>
+      <!--Method8-->
+      <div class="Method8">
+        <h3>8. String.replaceAll()</h3>
+        <p>returns a new string with all values replaced.</p>
+        <input id="String8" placeholder="Enter a string" />
+        <input id="chr" placeholder="Enter string to replace " />
+        <input id="replacechr" placeholder="Enter replacement string " />
+        <p id="Result8"></p>
+        <button id="replace" onclick="replaceString()">EndsWith</button>
+      </div>
+      <!--Method9-->
+      <div class="Method9">
+        <h3>9. String.slice()</h3>
+        <p>
+          Return a new string containing the character of string from the given
+          index to the end of string .
+        </p>
+        <input id="String9" placeholder="Enter a string" />
+        <input id="SliceIndex" placeholder="Enter Index to Slice " />
+        <p id="Result9"></p>
+        <button id="" onclick="Slice()">EndsWith</button>
+      </div>
+      <!--Method10-->
+      <div class="Method10">
+        <h3>10. String.split()</h3>
+        <p>Returns an array of string spilt at the given index.</p>
+        <input id="String10" placeholder="Enter a string" />
+        <p id="Result10"></p>
+        <button id="" onclick="split()">EndsWith</button>
+      </div>
+      <!--Method11-->
+      <div class="Method11">
+        <h3>11. String.tostring()</h3>
+        <p>Return the string representation of the specified object.</p>
+        <input id="String11" placeholder="Enter a string" />
+        <p id="Result11"></p>
+        <button id="" onclick="ToString()">EndsWith</button>
+      </div>
+      <!--Method12-->
+      <div class="Method12">
+        <h3>12. String.trim()</h3>
+        <p>
+          Return a new string with the leading and tralling whitespace removed.
+        </p>
+        <input id="String12" placeholder="Enter a string" />
+        <p id="Result12"></p>
+        <button id="" onclick="trim()">EndsWith</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

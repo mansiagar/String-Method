@@ -1,0 +1,123 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "M1 M2 "
+    "M3 M4 "
+    "M5 M6"
+    "M7 M8"
+    "M9 M10"
+    "M11 M12";
+  margin: 0px;
+  padding: 0px;
+}
+.Method1 {
+  background-color: #77e4c8;
+  grid-area: M1;
+  padding: 10px;
+}
+.Method2 {
+  background-color: #77e4c8;
+  grid-area: M2;
+  padding: 10px;
+}
+.Method3 {
+  background-color: #36c2ce;
+  grid-area: M3;
+  padding: 10px;
+}
+.Method4 {
+  background-color: #36c2ce;
+  grid-area: M4;
+  padding: 10px;
+}
+.Method5 {
+  background-color: #478ccf;
+  grid-area: M5;
+  padding: 10px;
+}
+.Method6 {
+  background-color: #478ccf;
+  grid-area: M6;
+  padding: 10px;
+}
+.Method7 {
+  background-color: #eb3678;
+  grid-area: M7;
+  padding: 10px;
+}
+.Method8 {
+  background-color: #eb3678;
+  grid-area: M8;
+  padding: 10px;
+}
+
+.Method9 {
+  background-color: #fb773c;
+  grid-area: M9;
+  padding: 10px;
+}
+
+.Method10 {
+  background-color: #fb773c;
+  grid-area: M10;
+  padding: 10px;
+}
+
+.Method11 {
+  background-color: #e2e2b6;
+  grid-area: M11;
+  padding: 10px;
+}
+
+.Method12 {
+  background-color: #e2e2b6;
+  grid-area: M12;
+  padding: 10px;
+}
+div h3 {
+  color: #131842;
+  font-size: 30px;
+}
+div input {
+  width: 25%;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: 0 0 20px grey;
+  font-size: 5px bold;
+}
+div button {
+  background-color: #2035ec;
+  width: 20%;
+  padding: 5px 10px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  box-shadow: 0 0 50px rgb(142, 142, 147);
+}
+div .Method1,
+.Method2,
+.Method3,
+.Method4,
+.Method5,
+.Method6,
+.Method7,
+.Method8,
+.Method9,
+.Method10,
+.Method11,
+.Method12 {
+  border: 5px double;
+}
+div p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
